@@ -132,7 +132,7 @@ The slight deviation at higher concentrations (0.8–1.0 mg/mL) is consistent wi
 ---
 ### The final plot obtained:
 
-! [Standard Curve extrapolated to obtain unknown concentrations] (Glucose Standard Curve.png).
+![Glucose Standard Curve](glucose_standard_curve.png)
 
 ## Limitations
 
