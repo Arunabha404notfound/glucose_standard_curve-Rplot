@@ -104,9 +104,9 @@ Running the script produces:
 
 Call: lm(formula = od ~ glucose, data = data)
 ...
-## Regression Summary Output
 
-![Regression Summary](regression_summary.png)
+
+
 
 
 ===== UNKNOWN SAMPLE RESULTS =====
@@ -119,6 +119,9 @@ Model Equation :
 ```
 
 ---
+### Regression Summary
+
+![Regression Summary](regression_summary.png)
 
 ## Biological Interpretation
 
