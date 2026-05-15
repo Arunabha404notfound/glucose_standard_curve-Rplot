@@ -104,6 +104,9 @@ Running the script produces:
 
 Call: lm(formula = od ~ glucose, data = data)
 ...
+## Regression Summary Output
+
+![Regression Summary](regression_summary.png)
 
 
 ===== UNKNOWN SAMPLE RESULTS =====
