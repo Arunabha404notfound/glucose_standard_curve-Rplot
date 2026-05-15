@@ -130,6 +130,9 @@ The standard curve demonstrates a **strong positive linear relationship** betwee
 The slight deviation at higher concentrations (0.8–1.0 mg/mL) is consistent with spectrophotometric saturation effects, where the linear approximation begins to break down at elevated absorbance values. This is a known limitation of colorimetric assays and does not affect the accuracy of predictions within the linear range.
 
 ---
+### The final plot obtained:
+
+! [Standard Curve extrapolated to obtain unknown concentrations] (Glucose Standard Curve.png).
 
 ## Limitations
 
