@@ -60,12 +60,12 @@ Unknown OD values measured from assay samples were passed into the model for con
 
 ## Features
 
-- **Linear regression modelling** — fits `OD ~ Glucose` using base R `lm()`
-- **Regression equation generation** — slope, intercept, and R² computed automatically
-- **Unknown sample back-calculation** — concentrations derived algebraically from the fitted model
-- **Annotated visualization** — regression line, dotted drop-lines, and concentration labels overlaid on the plot
-- **Formatted console output** — clean, aligned regression summary and results printed to the terminal
-- **Reduces manual interpolation and improves reproducibility of concentration estimation
+- **Linear regression modelling** — it fits `OD ~ Glucose` using base R `lm()`
+- **Regression equation generation** — slope, intercept, and R² are computed automatically
+- **Unknown sample back-calculation** — concentrations are derived algebraically from the fitted model
+- **Annotated visualization** — regression line, dotted drop-lines, and concentration labels are overlaid on the plot
+- **Formatted console output** — clean, aligned regression summary and results are printed to the terminal
+- It reduces manual interpolation and improves reproducibility of concentration estimation
 
 ---
 
@@ -119,7 +119,7 @@ Model Equation :
 ```
 
 ---
-### Regression Summary
+### Regression Summary screenshot from compiled code
 
 ![Regression Summary](regression_summary.png)
 
@@ -138,6 +138,7 @@ The slight deviation at higher concentrations (0.8–1.0 mg/mL) is consistent wi
 - The model assumes strict linearity; it should not be used to extrapolate beyond the standard range (0–1.0 mg/mL)
 - Confidence intervals around predicted values are not yet reported
 - A single wavelength measurement per sample is assumed (no replicates in current version)
+- A negative value of corresponding concentration is obtained at lower concentrations which is due to the intercept and has no feasibility in real life experiment.
 
 ---
 
@@ -166,4 +167,4 @@ The slight deviation at higher concentrations (0.8–1.0 mg/mL) is consistent wi
 
 **Arunabha Pal**
 BSc Microbiology
-St. Xavier's College, Kolkata
+St. Xavier's College (Autonomous), Kolkata
