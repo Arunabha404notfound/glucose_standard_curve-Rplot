@@ -126,7 +126,7 @@ Model Equation :
 
 ## Regression Equation and R² Value
 
-![Regression Equation and R²](unknown_conc_and_equation.png)
+![Regression Equation and R²](unknown_conc_equation.png)
 
 ## Biological Interpretation
 
