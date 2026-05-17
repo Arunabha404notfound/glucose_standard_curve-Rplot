@@ -123,6 +123,11 @@ Model Equation :
 
 ![Regression Summary](regression_summary.png)
 
+
+## Regression Equation and R² Value
+
+![Regression Equation and R²](unknown_conc_and_equation.png)
+
 ## Biological Interpretation
 
 The standard curve demonstrates a **strong positive linear relationship** between glucose concentration and optical density (R² ≈ 0.99), confirming that Beer-Lambert behaviour holds well across the working concentration range.
