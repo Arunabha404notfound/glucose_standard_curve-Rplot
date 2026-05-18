@@ -98,27 +98,8 @@ Running the script produces:
 - **Predicted concentrations** — estimated glucose `mg/mL` for each unknown sample, printed to the console
 - **Model equation** — displayed both on the plot and in the console output
 
-### Example Console Output
-```
-===== LINEAR REGRESSION SUMMARY =====
+### Example Console Output:
 
-Call: lm(formula = od ~ glucose, data = data)
-...
-
-
-
-
-
-===== UNKNOWN SAMPLE RESULTS =====
-Unknown Sample 1 : Measured OD = 0.040  -->  Estimated Glucose = 0.000 mg/mL
-Unknown Sample 2 : Measured OD = 0.760  -->  Estimated Glucose = 0.677 mg/mL
-
-Model Equation :
-  OD = -0.0449 + 1.1509 * Glucose
-  R² = 0.9894
-```
-
----
 ### Regression Summary screenshot from compiled code
 
 ![Regression Summary](regression_summary.png)
